@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Accessibility;Qt;Utility;
+Exec=ImageResizer
+Name=ImageResizer
+Name[zh_CN]=ImageResizer
+Icon=ImageResizer
+StartupNotify=false
+Terminal=false
+Type=Application
+GenericName=ImageResizer
+Version=1.0

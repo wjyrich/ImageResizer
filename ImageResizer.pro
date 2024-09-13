@@ -27,3 +27,11 @@ HEADERS  += mainwindow.h \
     colordefs.h
 
 FORMS    += mainwindow.ui
+
+target.path = $$PREFIX/bin
+desktop.files = ImageResizer.desktop
+desktop.path = $$PREFIX/share/applications/
+icons.path = $$PREFIX/share/icons/hicolor/apps/
+icons.files = ImageResizer.png
+
+INSTALLS += target desktop icons
